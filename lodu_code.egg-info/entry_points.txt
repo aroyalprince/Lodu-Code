@@ -1,0 +1,2 @@
+[console_scripts]
+lodu = lodu.lodu_runner:main

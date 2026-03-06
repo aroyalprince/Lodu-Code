@@ -1,0 +1,29 @@
+namaste
+ab sun{
+
+    bkl num1 = bsdk input daal("Pehla number de bhai:")
+    bkl num2 = bsdk input daal("Dusra number bhi de de:")
+    bkl operation = bsdk input daal("Kaunsa operation chahiye? (+, -, *, /):")
+
+
+    agar (operation == "+") {
+        bkl result = num1 + num2
+        mkc ab print kar("dono bkl ke jodne per: ", result)
+    }
+    ya agar (operation == "-") {
+        bkl result = num1 - num2
+        mkc ab print kar("dono bkl ke ghatane per: ", result)
+    }
+    ya agar (operation == "*") {
+        bkl result = num1 * num2
+        mkc ab print kar("dono bkl ke guna karne per: ", result)
+    }
+    ya agar (operation == "/") {
+        bkl result = num1 / num2
+        mkc ab print kar("dono bkl ke bhag krne per: ", result)
+    }
+    varna {
+        mkc ab print kar("Bhai sahi operation daal, +, -, *, / me se koi ek.")
+    }
+}
+khatm, tata, goodbye

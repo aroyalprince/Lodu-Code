@@ -1,0 +1,15 @@
+Namaste 
+ab sun {
+    mkc ab print kar("--- Table Printer---")
+    bkl number = int(bsdk input daal("Kiska table likhna hai bhai? : "))
+    
+    bkl i = 1
+    
+    jab tak (i <= 10) {
+        bkl result = number * i
+        mkc ab print kar(number, " x ", i, " = ", result)
+        
+        bkl i = i + 1
+    }
+}
+Khatm, tata, goodbye
