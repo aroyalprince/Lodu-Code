@@ -1,0 +1,10 @@
+Namaste 
+ab sun {
+    mkc ab print kar("Bhai, tera result aane wala hai...")
+    
+    @@ Code yahan par exactly 3 second ke liye ruk jayega
+    sabar kar(3) 
+    
+    mkc ab print kar("Surprise! Tu pass ho gaya!")
+}
+Khatm, tata, goodbye

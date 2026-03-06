@@ -1,0 +1,15 @@
+namaste
+ab sun {
+    bkl marks = 75
+    
+    agar (marks > 90) {
+        mkc ab print kar("Bhai tu toh topper hai!")
+    } 
+    ya agar (marks > 70) {
+        mkc ab print kar("Mast marks hain bkl!")
+    } 
+    varna {
+        mkc ab print kar("Padhai kar le thodi...")
+    }
+}
+khatm, tata, goodbye

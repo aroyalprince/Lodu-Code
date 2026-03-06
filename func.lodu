@@ -1,0 +1,17 @@
+Namaste 
+ab sun {
+    
+    abe saale add(a, b){
+        wapas aa a + b
+    }
+
+    bkl num1 = int(bsdk input daal("Pehla number daal: "))
+    bkl num2 = int(bsdk input daal("Dusra number daal: "))
+
+    bkl total = add(num1, num2)
+
+    mkc ab print kar( "Total: ", total)
+
+
+}
+Khatm, tata, goodbye

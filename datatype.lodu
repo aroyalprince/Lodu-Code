@@ -1,0 +1,45 @@
+Namaste 
+ab sun {
+    
+    @@ ----------------------------------------------------
+    @@ 1. ARRAY (List) - Isko humne "jhund" naam diya hai
+    @@ ----------------------------------------------------
+    bkl dushman_log = array["Gabbar", "Mogambo", "Kancha Cheena"]
+    mkc ab print kar("Dushmanon ki list: ", dushman_log)
+
+    
+    @@ ----------------------------------------------------
+    @@ 2. LENGTH - Isko humne "naap" naam diya hai (Python ka len)
+    @@ ----------------------------------------------------
+    bkl kitne_dushman = naap(dushman_log)
+    mkc ab print kar("Total dushman: ", kitne_dushman)
+
+
+    @@ ----------------------------------------------------
+    @@ 3. DATA TYPES (int, float, str) - Typecasting
+    @@ ----------------------------------------------------
+    @@ String se Integer banana
+    bkl a = int("100") 
+    
+    @@ String se Float (Decimal) banana
+    bkl b = float("99.99")
+    
+    @@ Number ko wapas String (bakar) banana 
+    bkl c = str(a) 
+    
+    mkc ab print kar("Integer value: ", a)
+    mkc ab print kar("Float value: ", b)
+
+
+    @@ ----------------------------------------------------
+    @@ 4. BOOLEAN (true / false)
+    @@ ----------------------------------------------------
+    bkl lodu_code_zindabad = true
+    bkl python_copy_paste = false
+
+    agar (lodu_code_zindabad == true) {
+        mkc ab print kar("Bhai ka code ekdum number 1 hai!")
+    }
+
+}
+Khatm, tata, goodbye

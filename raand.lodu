@@ -1,0 +1,19 @@
+Namaste 
+ab sun {
+    @@ 1. 10 Random numbers ka Array (Tera Idea)
+    bkl a = raand(10)
+    mkc ab print kar("10 random numbers ka jhund: ", a)
+
+    @@ 2. 1 se 1000 ke beech 1 number (Single Mode)
+    bkl lucky_num = raand(1, 1000)
+    mkc ab print kar("Tera lucky number hai: ", lucky_num)
+
+    @@ 3. Standard Data Types Test
+    bkl text_var = str(lucky_num)
+    bkl condition = true
+    
+    agar (condition == true) {
+        mkc ab print kar("Ye condition true hai bhai!")
+    }
+}
+Khatm, tata, goodbye

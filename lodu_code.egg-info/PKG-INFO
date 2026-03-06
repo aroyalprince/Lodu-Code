@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: lodu-code
+Version: 1.0.1
+Summary: The Official Desi Programming Language built by Prince Kumar Pandit.
+Author: Prince Kumar Pandit
+Author-email: artistkprincekumar@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: requires-python
+Dynamic: summary
+
+Lodu Code is a fully functional, desi programming language that uses Hindi slangs for syntax. Build variables, loops, conditions, arrays, and functions with absolute swag.
