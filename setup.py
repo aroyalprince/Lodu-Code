@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='lodu-code',
-    version='1.0.1',
+    version='1.0.2',
     description='The Official Desi Programming Language built by Prince Kumar Pandit.',
     long_description='Lodu Code is a fully functional, desi programming language that uses Hindi slangs for syntax. Build variables, loops, conditions, arrays, and functions with absolute swag.',
     author='Prince Kumar Pandit',
