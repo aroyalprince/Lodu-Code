@@ -43,11 +43,12 @@ def lodu_interpreter(source_code):
         # .lower() lagane se case sensitivity khatam ho jati hai
         stripped_line_lower = line.split("@@")[0].strip().lower()
         
-        if "namaste" in stripped_line_lower:
+        # FIX: Exact match so print("namaste") doesn't trigger this!
+        if stripped_line_lower == "namaste":
             has_namaste = True
-        if "khatm, tata, goodbye" in stripped_line_lower:
+        if stripped_line_lower == "khatm, tata, goodbye":
             has_khatm = True
-        if "ab sun" in stripped_line_lower and "{" in stripped_line_lower:
+        if stripped_line_lower.startswith("ab sun") and "{" in stripped_line_lower:
             has_main = True
 
     if not has_namaste:
@@ -108,17 +109,17 @@ def lodu_interpreter(source_code):
             i += 1
             continue
 
-        # Case Insensitive Start/End Checks
-        if "namaste" in line_lower:
+        # FIX: Case Insensitive EXACT Match Checks
+        if line_lower == "namaste":
             i += 1
             continue
             
-        if "ab sun" in line_lower and "{" in line_lower:
+        if line_lower.startswith("ab sun") and "{" in line_lower:
             inside_main = True 
             i += 1
             continue
 
-        if "khatm, tata, goodbye" in line_lower:
+        if line_lower == "khatm, tata, goodbye":
             break
 
         if inside_main:
@@ -273,6 +274,7 @@ def lodu_interpreter(source_code):
                     try:
                         variables[var_name] = eval(expression, desi_globals, variables)
                     except Exception as e:
+                        # DEBUGGING KE LIYE YAHAN PRINT RAKH SAKTA HAI AGAR CHAAHE TOH
                         pass
                 i += 1
                 continue
